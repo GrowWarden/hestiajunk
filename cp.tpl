@@ -4,7 +4,7 @@
 #=======================================================================#
 
 server {
-    listen      %ip%:8085;
+    listen      %ip%:%proxy_port%;
     server_name %domain_idn% %alias_idn%;
     index       index.php index.html index.htm;
         
